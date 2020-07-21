@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid #8080800f;
+}
+
+.header-wrapper {
+    height: 234px;
+    background-color: #1caf8b;
+}
+
+.both-div-wrapper {
+    height: 94px;
+    background-color: #1caf8b;
+}
+
+.top-network-wrapper {
+    height: 38px;
+    background-color: #368f79;
+    padding: 6px;
+}
+
+.sign-img-wrapper {
+    text-align-last: end;
+    padding-right: 85px;
+    position: relative;
+}
+
+.nav-clock {
+    position: absolute;
+    color: #ffffffb3;
+    right: 21px;
+    top: 9px;
+    font-size: 23px;
+}
+
+.header .wifi {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.header .battery {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.main-container .menu-and-searchbar-wrapper {
+    display: flex;
+}
+
+.main-container .header .three-lines-wrap {
+    margin-left: 23px;
+}
+
+.main-container .header .menu-wrapper {
+    width: 18%;
+}
+
+.header .search-input-wrapper {
+    width: 48%;
+    padding: 15px 84px;
+}
+
+.header .input-search {
+    height: 49px;
+    width: 82%;
+    padding: 1px 26px;
+    font-size: 28px;
+    margin-left: 89px;
+    display: none;
+}
+
+.header .search-btn {
+    background-color: #1caf8b;
+    border: none;
+}
+
+.main-container .header .searchbar-wrapper {
+    width: 12%;
+    padding: 16px 10px 0px;
+}
+
+.main-container .header #search {
+    display: inline-block;
+    margin-bottom: 3px;
+    width: 68px;
+    margin-right: 8px;
+}
+
+.main-container .header .heading ul li {
+    display: inline;
+    padding: 1px 31px;
+}
+
+.main-container .header .heading {
+    height: 80px;
+    position: relative;
+}
+
+.main-container .header .heading a {
+    text-decoration: none;
+    font-size: 39px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.main-container .header .notification {
+    color: white;
+    background-color: red;
+    padding: 12px;
+    border: none;
+    border-radius: 21%;
+    position: absolute;
+    top: 34px;
+    left: 361px;
+}
+
+.rechtangle-bottom {
+    border-bottom: solid rgb(235, 233, 233) 5px;
+    padding-bottom: 14px;
+}
+
+.grey {
+    color: rgb(236, 220, 220);
+}
+
+.white {
+    color: white;
+}
+
+
+/**/
+
+
+/*footer*/
+
+footer.footer {
+    height: 104px;
+    background-color: black;
+    border-top: solid blue 2px;
+}
+
+footer.footer .navigation-sign-wrapper {
+    display: flex;
+    padding: 9px 0px 0px 170px;
+}
+
+footer.footer .navigation-sign-wrapper .navigation {
+    width: 33%;
+}
+
+footer.footer .right-left-navi {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/* calls details wrapper css*/
+
+.main-container .calls-details-section {
+    background-color: rgb(247, 241, 241);
+    display: flex;
+}
+
+.calls-details-section .calls-info-wrapper {
+    height: 250px;
+    width: 303px;
+    margin: 1px 1px -1px 1px;
+    border: solid white 1px;
+    position: relative;
+    background-size: cover;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .dp {
+    max-width: 100%;
+    /*max-height: 100%;*/
+    display: block;
+    height: 249px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .calls-three-dots {
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .name-wrapper {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper p.name {
+    color: rgb(238, 232, 232);
+    font-size: 23px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .name-date-sign-wrapper {
+    height: 76px;
+    width: 100%;
+    background-color: #0a0b0a70;
+    position: absolute;
+    bottom: 0px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .name-date-sign-wrapper .down-arrow {
+    position: absolute;
+    /* top: 4px; */
+    right: 9px;
+    bottom: 14px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .date {
+    color: rgb(235, 230, 230);
+}
+
+
+/*chat details section css*/
+
+.main-container .chat-details-section {}
+
+.main-container .chat-details-section .chat {
+    display: flex;
+    padding: 17px 0px 2px 9px;
+    border-bottom: solid 1px grey;
+}
+
+.main-container .chat-details-section .chat-img-wrapper {
+    height: 162.2px;
+    width: 148px;
+}
+
+.main-container .chat-details-section .chat .first-profile-pic {
+    width: 100%;
+    display: block;
+}
+
+.main-container .chat-details-section .chat .chat-heading-paragraph-wrapper {
+    width: 59%;
+    padding: 40px 31px;
+}
+
+.main-container .chat-details-section .chat .chat-heading-paragraph-wrapper .name-heading {
+    font-size: 30px;
+}
+
+.main-container .chat-details-section .chat .chat-heading-paragraph-wrapper .personal.msg {
+    font-size: 24px;
+    margin: 4px 3px 1px;
+    color: grey;
+}
+
+.main-container .chat-details-section .chat .chat-date-wrapper {
+    width: 15%;
+    padding: 56px 0px 5px 82px;
+    position: relative;
+}
+
+.main-container .chat-details-section .chat .chat-date-wrapper .chat-time {
+    text-align: end;
+    color: grey;
+    margin-right: 34px;
+}
+
+.main-container .chat-details-section .chat .chat-date-wrapper .unread-msg {
+    text-align: center;
+    margin: 11px 0px 0px 66px;
+    padding: 5px 1px;
+    background-color: red;
+    color: white;
+    width: 23px;
+    font-size: 11px;
+    border-radius: 15%;
+}
+
+.main-container .chat-details-section .chat .tick {
+    color: #1caf8b;
+    font-size: 27px;
+    margin-right: 6px;
+}
+
+.main-container .chat-details-section .chat .message-sign {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    display: block;
+}
+
+.main-container .click-for-new-msg {
+    position: relative;
+}
+
+.main-container .click-for-new-msg .message-sign {
+    position: absolute;
+    right: 32px;
+    bottom: 13px;
+    width: 77px;
+}
+
+
+/*group-details-section*/
+
+.main-container .group-details-section {}
+
+.main-container .group-details-section .group-wrapper {
+    display: flex;
+}
+
+.main-container .group-details-section .group-wrapper .groups {
+    height: 340px;
+    width: 49.5%;
+    margin-left: 1px;
+    position: relative;
+    margin-inline-end: auto;
+    background-size: cover;
+}
+
+.main-container .group-details-section .group-wrapper .groups .group-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container .group-details-section .group-wrapper .groups .group-text-wrapper {
+    background-color: #131212ad;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 41px;
+}
+
+.main-container .group-details-section .group-wrapper .groups .group-text {
+    color: #ecdfdf;
+    font-size: 19px;
+    padding: 43px 2px 0px 34px;
+}
+
+
+/*Messege section  css*/
+
+.main-container .Message-details-section {
+    padding: 18px 59px;
+}
+
+.main-container .header .name-online-div {
+    height: 61px;
+    display: flex;
+    padding: 28px 28px;
+    background-color: #1caf8b;
+}
+
+.main-container .header .back-arraow-call-sign-wrapper {
+    width: 15%;
+    padding: 15px 15px 2px 39px;
+}
+
+.main-container .header .name-online-wrapper {
+    width: 75%;
+}
+
+.main-container .header .name-online-div .three-dots {
+    display: inline-block;
+    height: 32px;
+}
+
+.main-container .header .name-online-div .call {
+    display: inline-block;
+    padding-left: 29px;
+    margin-right: 36px;
+}
+
+.main-container .header .name-online-div .online {
+    letter-spacing: 2px;
+}
+
+.text-white {
+    color: white;
+}
+
+.font-weight {
+    font-weight: 100;
+}
+
+.main-container .Message-details-section .first-person-msg-wrapper {
+    display: flex;
+    margin: 9px 5px 20px 2px;
+}
+
+.dp {
+    margin: 50px 25px;
+}
+
+.main-container .Message-details-section .msg {
+    font-size: 29px;
+    display: inline;
+}
+
+.main-container .Message-details-section .msg-text-wrapper {
+    width: 80%;
+    background-color: #8080803f;
+    border-radius: 16px;
+    padding: 35px 12px 28px 46px;
+    margin-top: 44px;
+}
+
+.main-container .Message-details-section .second-person-msg-wrapper {
+    display: flex;
+    margin: 9px 5px;
+    flex-direction: row-reverse;
+}
+
+.main-container .Message-details-section .dp-img-wrapper {
+    width: 20%;
+}
+
+.main-container .Message-details-section .chat-time {
+    font-size: 19px;
+    margin-left: 8px;
+    color: #808080c4;
+}
+
+.main-container .Message-details-section .msg-dp-second {
+    display: block;
+    margin-top: 46px;
+    width: 92px;
+}
+
+
+/*input section css*/
+
+.main-container .input-section .input-details-wrapper {
+    height: 78px;
+    background-color: #80808047;
+    display: flex;
+    margin-top: 90px;
+}
+
+.main-container .input-section .input-details-wrapper .emoji-wrapper {
+    width: 8%;
+    /* background-color: red; */
+    padding: 19px 33px;
+    border-right: solid #80808063;
+}
+
+.main-container .input-section .input-details-wrapper .input {
+    font-size: 24px;
+    padding: 26px 48px;
+    width: 28em;
+    background-color: #80808000;
+    border: none;
+}
+
+.main-container .input-section .input-wrapper {
+    position: relative;
+}
+
+.main-container .input-section .input-wrapper .attech {
+    position: absolute;
+    right: 143px;
+    top: 16px;
+}
+
+.main-container .input-section .input-wrapper .send {
+    position: absolute;
+    right: 54px;
+    top: 20px;
+}
+
+
+/*new profile css section*/
+
+.new-profile-main-container {
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid #80808036;
+}
+
+.new-profile-main-container .header .full-dp-wrapper {
+    background-image: url(../images/new-profile-dp.png);
+    height: 568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.new-profile-main-container .header .full-dp-wrapper .top-network-wrapper {
+    height: 38px;
+    background-color: #170f11de;
+}
+
+.new-profile-main-container .star-logo {
+    position: relative;
+}
+
+.new-profile-main-container .star-logo .star {
+    position: absolute;
+    right: 45px;
+    bottom: -62px;
+    width: 121px;
+}
+
+.new-profile-main-container .name-wrapper {
+    width: 52%;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 22em;
+    padding-right: 72px;
+}
+
+.new-profile-main-container .name-wrapper .name {
+    font-size: 66px;
+    color: white;
+    font-weight: 100;
+}
+
+.new-profile-main-container .status-wrapper {
+    height: 136px;
+    border-bottom: solid grey 1px;
+    padding: 52px 52px 2px 49px;
+    color: #130808d9;
+}
+
+.new-profile-main-container .username-wrapper {
+    display: flex;
+    height: 129px;
+    padding: 44px 22px 0px 38px;
+    border-bottom: solid grey 1px;
+    color: #130808d9;
+}
+
+.new-profile-main-container .status-wrapper .status,
+.media {
+    font-size: 40px;
+    color: #03bb89;
+    display: inline-block;
+    margin: 0px 42px 0px 1px;
+    font-weight: 600;
+}
+
+.new-profile-main-container .status-wrapper .date {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.new-profile-main-container .status-wrapper .status-text {
+    margin: 14px 2px 2px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.new-profile-main-container .username-wrapper .user-logo {
+    width: 16%;
+}
+
+.new-profile-main-container .username-wrapper .name {
+    font-size: 39px;
+    margin-top: 2px;
+}
+
+.new-profile-main-container .username-wrapper .username {
+    font-size: 25px;
+}
+
+.new-profile-main-container .username-wrapper .user-logo img {
+    margin: 18px 18px;
+}
+
+.new-profile-main-container .media-wrapper .media-picture {
+    height: 200px;
+    display: flex;
+}
+
+.new-profile-main-container .media-wrapper .media {
+    padding: 19px 37px 32px 14px;
+}
+
+.new-profile-main-container .media-wrapper .media-img-wrap {
+    /* height: 74px; */
+    width: 131px;
+    margin-right: 99px;
+}
+
+.new-profile-main-container .media-wrapper .media-img-wrap .m-img {
+    height: 202px;
+    width: 219px;
+    margin-left: 12px;
+}
+
+.new-profile-main-container .footer {
+    border-top: none;
+}
+
+
+/*slide menu css starts*/
+
+.slide-menu-container {
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid #80808036;
+}
+
+.slide-menu-container .header .slide-menu-dp-wrapper {
+    background-image: url(../images/slide-menu-dp.png);
+    height: 568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slide-menu-container .header {
+    margin-bottom: 52px;
+}
+
+.slide-menu-container .header .slide-menu-dp-wrapper .top-network-wrapper {
+    height: 38px;
+    background-color: #170f117d;
+}
+
+.slide-menu-container .header .slide-menu-dp-wrapper .name-wrapper .name {
+    color: white;
+    font-size: 38px;
+    position: absolute;
+    bottom: 40px;
+    left: 59px;
+    font-family: monospace;
+}
+
+.slide-menu-container .slide-menu-details-section {
+    border-bottom: solid 1px grey;
+}
+
+.slide-menu-container .slide-menu-details-section .logo-name-wrapper {
+    display: flex;
+    padding: 19px 3px;
+    height: 74px;
+}
+
+.all-logo-name-section {
+    border-bottom: solid #a4a1a138;
+    padding: 37px 0px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .slide-logo-wrap {
+    padding-left: 63px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .slide-logo-name-wrap {
+    padding-left: 57px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .slide-logos {
+    width: 45px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .logo-name {
+    font-size: 33px;
+}
+
+.slide-menu-container .slide-menu-details-section .slide-about-feedback-wrap {
+    height: 125px;
+    padding: 25px 0px 29px 43px;
+}
+
+.slide-menu-container .slide-menu-details-section .slide-about-feedback-wrap .about-feedback {
+    font-size: 32px;
+    margin-top: 26px;
+}
+
+
+/*pop up css*/
+
+.popup-section {}
+
+.popup-wrapper {
+    position: fixed;
+    top: 0;
+    right: 95px;
+    left: 0;
+    bottom: 0;
+}
+
+.popup-wrapper .slide-menu-container {
+    background-color: white;
+}
+
+.popup-wrapper .slide-menu-container .slide-menu-details-section {
+    border-bottom: none;
+}
+
+.popup-wrapper .footer {
+    height: 102px;
+    background-color: black;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.popup-section .footer {
+    border-top: none;
+}
+
+.popup-section .whole-page-wrapper {
+    opacity: 72%;
+}
+
+
+/*
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}*/
